@@ -6,7 +6,8 @@
 **Model**
 paste you model hear
 **Example**
-[log] {
+```json
+{
      "total_size": 2,
      "limit": 10,
      "offset": 1,
@@ -40,7 +41,7 @@ paste you model hear
           }
      ]
 }
-
+```
 ## 2. API URL 2
 **Model**
 paste you model hear
