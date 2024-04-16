@@ -7,7 +7,10 @@
 
 **Model**
 paste you model hear
-**Example**
+
+<details>
+
+<summary>Example</summary>
 
 ```json
 {
@@ -46,11 +49,16 @@ paste you model hear
 }
 ```
 
+</details>
+
 ## 2. 200 GET /api/v1/flash-deals
 
 **Model**
 paste you model hear
-**Example**
+
+<details>
+
+<summary>Example</summary>
 
 ```json
 {
@@ -72,13 +80,19 @@ paste you model hear
 }
 ```
 
-
+</details>
 
 ## 3. 200 GET /api/v1/brands?guest_id=1
+
 **Model**
 paste you model hear
-**Example**
-```json 
+
+
+<details>
+
+<summary>Example</summary>
+
+```json
 [
      {
           "id": 17,
@@ -183,13 +197,17 @@ paste you model hear
 ]
 ```
 
-
-
-
-
+</details>
 
 ## 2. API URL 2
+
 **Model**
 paste you model hear
 **Example**
-paste your post data hear
+
+<details>
+
+<summary>Example</summary>
+
+
+</details>
