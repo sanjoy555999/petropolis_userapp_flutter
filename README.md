@@ -1,8 +1,13 @@
 ## 1. 200 GET /api/v1/config
+ 
 **Model**
-paste you model hear
+ 
+Paste you model hear
+ 
 <details>
+ 
 <summary>Example</summary>
+ 
 ```json
 {
      "brand_setting": "1",
@@ -1431,12 +1436,18 @@ paste you model hear
      }
 }
 ```
+ 
 </details>
 ## 2. 200 GET /api/v1/flash-deals
+ 
 **Model**
-paste you model hear
+ 
+Paste you model hear
+ 
 <details>
+ 
 <summary>Example</summary>
+ 
 ```json
 {
      "id": 4,
@@ -1456,12 +1467,18 @@ paste you model hear
      "translations": []
 }
 ```
+ 
 </details>
 ## 3. 200 GET /api/v1/banners
+ 
 **Model**
-paste you model hear
+ 
+Paste you model hear
+ 
 <details>
+ 
 <summary>Example</summary>
+ 
 ```json
 [
      {
@@ -1943,12 +1960,18 @@ paste you model hear
      }
 ]
 ```
+ 
 </details>
 ## 4. 200 GET /api/v1/flash-deals/products/4
+ 
 **Model**
-paste you model hear
+ 
+Paste you model hear
+ 
 <details>
+ 
 <summary>Example</summary>
+ 
 ```json
 [
      {
@@ -2519,12 +2542,18 @@ paste you model hear
      }
 ]
 ```
+ 
 </details>
 ## 5. 200 GET /api/v1/categories?guest_id=1
+ 
 **Model**
-paste you model hear
+ 
+Paste you model hear
+ 
 <details>
+ 
 <summary>Example</summary>
+ 
 ```json
 [
      {
@@ -3500,12 +3529,18 @@ paste you model hear
      }
 ]
 ```
+ 
 </details>
 ## 6. 200 GET /api/v1/products/home-categories?guest_id=1
+ 
 **Model**
-paste you model hear
+ 
+Paste you model hear
+ 
 <details>
+ 
 <summary>Example</summary>
+ 
 ```json
 [
      {
@@ -6069,12 +6104,18 @@ paste you model hear
      }
 ]
 ```
+ 
 </details>
 ## 7. 200 GET /api/v1/seller/list/top?limit=10&offset=1
+ 
 **Model**
-paste you model hear
+ 
+Paste you model hear
+ 
 <details>
+ 
 <summary>Example</summary>
+ 
 ```json
 {
      "total_size": 8,
@@ -6525,12 +6566,18 @@ paste you model hear
      ]
 }
 ```
+ 
 </details>
 ## 8. 200 GET /api/v1/brands?guest_id=1
+ 
 **Model**
-paste you model hear
+ 
+Paste you model hear
+ 
 <details>
+ 
 <summary>Example</summary>
+ 
 ```json
 [
      {
@@ -6635,12 +6682,18 @@ paste you model hear
      }
 ]
 ```
+ 
 </details>
 ## 9. 200 GET /api/v1/products/latest?guest_id=1&limit=10&&offset=1
+ 
 **Model**
-paste you model hear
+ 
+Paste you model hear
+ 
 <details>
+ 
 <summary>Example</summary>
+ 
 ```json
 {
      "total_size": 35,
@@ -8267,12 +8320,18 @@ paste you model hear
      ]
 }
 ```
+ 
 </details>
 ## 10. 200 GET /api/v1/products/featured?guest_id=1&limit=10&&offset=1
+ 
 **Model**
-paste you model hear
+ 
+Paste you model hear
+ 
 <details>
+ 
 <summary>Example</summary>
+ 
 ```json
 {
      "total_size": 28,
@@ -10253,12 +10312,18 @@ paste you model hear
      ]
 }
 ```
+ 
 </details>
 ## 11. 200 GET /api/v1/deals/featured
+ 
 **Model**
-paste you model hear
+ 
+Paste you model hear
+ 
 <details>
+ 
 <summary>Example</summary>
+ 
 ```json
 [
      {
@@ -10852,12 +10917,18 @@ paste you model hear
      }
 ]
 ```
+ 
 </details>
 ## 12. 200 GET /api/v1/dealsoftheday/deal-of-the-day
+ 
 **Model**
-paste you model hear
+ 
+Paste you model hear
+ 
 <details>
+ 
 <summary>Example</summary>
+ 
 ```json
 {
      "id": 79,
@@ -10934,12 +11005,18 @@ paste you model hear
      "reviews": []
 }
 ```
+ 
 </details>
 ## 13. 200 GET /api/v1/products/most-demanded-product?guest_id=1
+ 
 **Model**
-paste you model hear
+ 
+Paste you model hear
+ 
 <details>
+ 
 <summary>Example</summary>
+ 
 ```json
 {
      "id": 1,
@@ -10955,12 +11032,18 @@ paste you model hear
      "wishlist_count": 0
 }
 ```
+ 
 </details>
 ## 14. 200 GET /api/v1/products/most-searching?guest_id=1?guest_id=1&limit=10&offset=1
+ 
 **Model**
-paste you model hear
+ 
+Paste you model hear
+ 
 <details>
+ 
 <summary>Example</summary>
+ 
 ```json
 {
      "total_size": 26,
@@ -12694,12 +12777,18 @@ paste you model hear
      ]
 }
 ```
+ 
 </details>
 ## 15. 200 GET /api/v1/seller/more
+ 
 **Model**
-paste you model hear
+ 
+Paste you model hear
+ 
 <details>
+ 
 <summary>Example</summary>
+ 
 ```json
 [
      {
@@ -13154,12 +13243,18 @@ paste you model hear
      }
 ]
 ```
+ 
 </details>
 ## 16. 200 GET /api/v1/notifications?limit=10&guest_id=1&offset=1
+ 
 **Model**
-paste you model hear
+ 
+Paste you model hear
+ 
 <details>
+ 
 <summary>Example</summary>
+ 
 ```json
 {
      "total_size": 2,
@@ -13196,4 +13291,5 @@ paste you model hear
      ]
 }
 ```
+ 
 </details>
