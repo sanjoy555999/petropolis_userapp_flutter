@@ -13309,3 +13309,1057 @@ Paste you model hear
  
 </details>
  
+## 17. 200 GET /api/v1/shipping-method/by-seller/1/admin
+ 
+**Model**
+ 
+Paste you model hear
+ 
+<details>
+ 
+<summary>Example</summary>
+ 
+```json
+[
+     {
+          "id": 2,
+          "creator_id": 1,
+          "creator_type": "admin",
+          "title": "Company Vehicle",
+          "cost": "10.00",
+          "duration": "2 Week",
+          "status": true,
+          "created_at": "2022-03-16T10:30:30.000000Z",
+          "updated_at": "2022-03-16T10:30:30.000000Z"
+     },
+     {
+          "id": 9,
+          "creator_id": 1,
+          "creator_type": "admin",
+          "title": "shipping",
+          "cost": "100.00",
+          "duration": "5-6",
+          "status": true,
+          "created_at": "2022-03-16T09:27:34.000000Z",
+          "updated_at": "2022-03-16T09:27:34.000000Z"
+     },
+     {
+          "id": 11,
+          "creator_id": 1,
+          "creator_type": "admin",
+          "title": "order wise shipping",
+          "cost": "100.00",
+          "duration": "5-6",
+          "status": true,
+          "created_at": "2022-03-16T10:33:17.000000Z",
+          "updated_at": "2022-03-16T10:33:17.000000Z"
+     }
+]
+```
+ 
+</details>
+ 
+## 18. 200 GET /api/v1/products/related-products/49?guest_id=1
+ 
+**Model**
+ 
+Paste you model hear
+ 
+<details>
+ 
+<summary>Example</summary>
+ 
+```json
+[
+     {
+          "id": 32,
+          "added_by": "admin",
+          "user_id": 1,
+          "name": "Premium quality wedding panjabi for men",
+          "slug": "test-asdf-ZEYzZC",
+          "product_type": "physical",
+          "category_ids": [
+               {
+                    "id": "12",
+                    "position": 1
+               },
+               {
+                    "id": "70",
+                    "position": 2
+               }
+          ],
+          "category_id": 12,
+          "sub_category_id": 70,
+          "sub_sub_category_id": null,
+          "brand_id": 12,
+          "unit": "pc",
+          "min_qty": 1,
+          "refundable": 1,
+          "digital_product_type": null,
+          "digital_file_ready": null,
+          "images": [
+               "2023-03-12-640d984356023.png",
+               "2023-10-16-652d01e1a59a1.png",
+               "2023-10-16-652d01e1a6e57.png",
+               "2023-10-16-652d022c1a38b.png"
+          ],
+          "color_image": [
+               {
+                    "color": "00FFFF",
+                    "image_name": "2023-03-12-640d984356023.png"
+               },
+               {
+                    "color": null,
+                    "image_name": "2023-10-16-652d01e1a59a1.png"
+               },
+               {
+                    "color": null,
+                    "image_name": "2023-10-16-652d01e1a6e57.png"
+               },
+               {
+                    "color": "9966CC",
+                    "image_name": "2023-10-16-652d022c1a38b.png"
+               }
+          ],
+          "thumbnail": "2023-10-16-652d01e1a70cf.png",
+          "featured": 1,
+          "flash_deal": null,
+          "video_provider": "youtube",
+          "video_url": "https://www.youtube.com/embed/mlTm9reIFpY",
+          "colors": [
+               "#9966CC"
+          ],
+          "variant_product": 0,
+          "attributes": [
+               1,
+               2
+          ],
+          "choice_options": [
+               {
+                    "name": "choice_1",
+                    "title": "size",
+                    "options": [
+                         "s",
+                         "                              l"
+                    ]
+               },
+               {
+                    "name": "choice_2",
+                    "title": "type",
+                    "options": [
+                         "a",
+                         "                              b"
+                    ]
+               }
+          ],
+          "variation": [
+               {
+                    "type": "Amethyst-s-a",
+                    "price": 500,
+                    "sku": "Pqwpfm-Amethyst-s-a",
+                    "qty": 1000
+               },
+               {
+                    "type": "Amethyst-s-b",
+                    "price": 600,
+                    "sku": "Pqwpfm-Amethyst-s-b",
+                    "qty": 1000
+               },
+               {
+                    "type": "Amethyst-l-a",
+                    "price": 700,
+                    "sku": "Pqwpfm-Amethyst-l-a",
+                    "qty": 1000
+               },
+               {
+                    "type": "Amethyst-l-b",
+                    "price": 800,
+                    "sku": "Pqwpfm-Amethyst-l-b",
+                    "qty": 1000
+               }
+          ],
+          "published": 0,
+          "unit_price": 500,
+          "purchase_price": 400,
+          "tax": 5,
+          "tax_type": "percent",
+          "tax_model": "exclude",
+          "discount": 10,
+          "discount_type": "percent",
+          "current_stock": 4000,
+          "minimum_order_qty": 1,
+          "details": "<p><strong>&nbsp;&nbsp;&nbsp;SKU - 156740203_BD-1086475000<br />\r\nMain Material - Polyester</strong></p>\r\n\r\n<p><br />\r\n<strong>85% Polyester and 15% Spandex Fabric</strong></p>\r\n\r\n<p><strong>85% Polyester and 15% Spandex Fabric</strong></p>\r\n\r\n<p><strong>&radic;【Size】our sofa slipcovers have 3 sizes. Chair slipcover measures up to 32in-47in wide (80-120cm), Loveseat slipcover measures up to 57in-70in wide (145-180cm), Sofia slipcover measures up to 72in-92in (185-235cm). PLEASE measure your sofa before choosing our sofa slipcovers.</strong></p>\r\n\r\n<p><strong>&radic;【Fabric】: Our Stretchable Sofa Slipcovers Which Are Made of 85% Polyester and 15% Spandex Fabric, Are Suitable for 90% Sofas.the Great Elasticity Could Fit Your Sofa More Perfect and Cover Sofa in Ever Edge. and Unique Dyeing Technolog Keeps Your Sofa Slipcovers Not Fade. Please Note : Our Sofa Slipcovers Are Not Water-proof.</strong></p>\r\n\r\n<p><strong>&radic;【Protection】Our sofa slipcovers could help protect your furniture from daily tear, spills, stains and so on. It is a great choice for family with children and pets. It&#39;s easy to install and take off, machine washable, and the best partner for household life.</strong></p>\r\n\r\n<p><strong>&radic;【Lifetime 】We are confident in our products&rsquo; quality. If you are unsatisfied with our products whichever aspects, please connect with us firstly, and we will give you a satisfying result, no matter refund or sending new slipcovers for replace. We will do our best.</strong></p>\r\n\r\n<p><strong>&radic;【Attention】Due to the different light and computer screen resolution, The color displayed on the screen may be different from the actual product. If you are not sure about the color or anything else, PLEASE contact US and we will assist you..</strong></p>\r\n\r\n<p><strong>&radic;【Size】our sofa slipcovers have 3 sizes. Chair slipcover measures up to 32in-47in wide (80-120cm), Loveseat slipcover measures up to 57in-70in wide (145-180cm), Sofia slipcover measures up to 72in-92in (185-235cm). PLEASE measure your sofa before choosing our sofa slipcovers.</strong></p>\r\n\r\n<p><strong>&radic;【Fabric】: Our Stretchable Sofa Slipcovers Which Are Made of 85% Polyester and 15% Spandex Fabric, Are Suitable for 90% Sofas.the Great Elasticity Could Fit Your Sofa More Perfect and Cover Sofa in Ever Edge. and Unique Dyeing Technolog Keeps Your Sofa Slipcovers Not Fade. Please Note : Our Sofa Slipcovers Are Not Water-proof.</strong></p>\r\n\r\n<p><strong>&radic;【Protection】Our sofa slipcovers could help protect your furniture from daily tear, spills, stains and so on. It is a great choice for family with children and pets. It&#39;s easy to install and take off, machine washable, and the best partner for household life.</strong></p>\r\n\r\n<p><strong>&radic;【Lifetime 】We are confident in our products&rsquo; quality. If you are unsatisfied with our products whichever aspects, please connect with us firstly, and we will give you a satisfying result, no matter refund or sending new slipcovers for replace. We will do our best.</strong></p>\r\n\r\n<p><strong>&radic;【Attention】Due to the different light and computer screen resolution, The color displayed on the screen may be different from the actual product. If you are not sure about the color or anything else, PLEASE contact US and we will assist you..</strong></p>",
+          "free_shipping": 0,
+          "attachment": null,
+          "created_at": "2022-04-19T23:52:33.000000Z",
+          "updated_at": "2023-10-16T22:02:05.000000Z",
+          "status": 1,
+          "featured_status": 1,
+          "meta_title": "Men Fashion",
+          "meta_description": "Men Fashion Show",
+          "meta_image": "2023-10-16-652d01e1a73a0.png",
+          "request_status": 1,
+          "denied_note": null,
+          "shipping_cost": 10,
+          "multiply_qty": 1,
+          "temp_shipping_cost": null,
+          "is_shipping_cost_updated": null,
+          "code": "173101",
+          "reviews_count": 0,
+          "wish_list_count": 0,
+          "flash_deal_status": 1,
+          "flash_deal_end_date": "2030-12-25T18:00:00.000000Z",
+          "colors_formatted": [
+               {
+                    "name": "Amethyst",
+                    "code": "#9966CC",
+                    "image": "2023-10-16-652d022c1a38b.png"
+               }
+          ],
+          "rating": [],
+          "flash_deal_products": [
+               {
+                    "id": 62,
+                    "flash_deal_id": 4,
+                    "product_id": 32,
+                    "discount": "0.00",
+                    "discount_type": null,
+                    "created_at": "2023-10-16T04:20:01.000000Z",
+                    "updated_at": "2023-10-16T04:20:01.000000Z",
+                    "flash_deal": {
+                         "id": 4,
+                         "title": "Flash Deal",
+                         "start_date": "2022-04-11T18:00:00.000000Z",
+                         "end_date": "2030-12-25T18:00:00.000000Z",
+                         "status": true,
+                         "featured": false,
+                         "background_color": null,
+                         "text_color": null,
+                         "banner": "2023-10-15-652bd104efe02.png",
+                         "slug": "flash-deal",
+                         "created_at": "2022-04-13T01:03:56.000000Z",
+                         "updated_at": "2023-10-16T04:18:33.000000Z",
+                         "product_id": null,
+                         "deal_type": "flash_deal",
+                         "translations": []
+                    }
+               }
+          ],
+          "tags": [
+               {
+                    "id": 19,
+                    "tag": "men",
+                    "visit_count": 18,
+                    "created_at": "2023-06-12T21:49:11.000000Z",
+                    "updated_at": "2023-10-21T23:39:19.000000Z",
+                    "pivot": {
+                         "product_id": 32,
+                         "tag_id": 19
+                    }
+               },
+               {
+                    "id": 59,
+                    "tag": "fashion",
+                    "visit_count": 2,
+                    "created_at": "2023-10-16T01:35:42.000000Z",
+                    "updated_at": "2023-10-21T23:39:19.000000Z",
+                    "pivot": {
+                         "product_id": 32,
+                         "tag_id": 59
+                    }
+               }
+          ],
+          "seller": {
+               "id": 1,
+               "f_name": "Rich",
+               "l_name": "Fashion",
+               "phone": "01111111111",
+               "image": "2023-10-10-6524eba0ef074.png",
+               "email": "fatema@gmail.com",
+               "password": "$2y$10$dDQcuGqiDmK9x.cjqY75hunBiST32kVkTVAgAmGSGqDeqOuiP7s8W",
+               "status": "approved",
+               "remember_token": "ZXnPnoaIzdJHPP8XsbmEePFkpm05OUxFfsTQRxa0BxUaNylxbHkRy7pSKPGQ",
+               "created_at": "2022-03-15T08:20:21.000000Z",
+               "updated_at": "2023-10-10T05:13:52.000000Z",
+               "bank_name": "City Bank",
+               "branch": "Branch",
+               "account_no": "12345678",
+               "holder_name": "abc",
+               "auth_token": "uKACbOOGfO9V6pMTUzbJ3l2TpDUQrWAhbSF3OsD9B0UeqfridI",
+               "sales_commission_percentage": null,
+               "gst": "12345",
+               "cm_firebase_token": "foCkHTeeRyWCiajZDYEKMV:APA91bHQNOrBiaaBWEec9sHMVjybZDeMp7l9MvOgrcth-LdN5zAJc-nLDoDImzGolwanQ7-Sn6AL6wxSaDxhRfpYEI5dc5ChULGIoKaMV8hn3E9vQNJU86QoqAVmIwU60vbiucDxGWSd",
+               "pos_status": 1,
+               "minimum_order_amount": 0,
+               "free_delivery_status": 0,
+               "free_delivery_over_amount": 0,
+               "app_language": "en",
+               "shop": {
+                    "id": 1,
+                    "seller_id": 1,
+                    "name": "Rich Fashion",
+                    "slug": "rich-fashion-IYryCF",
+                    "address": "dhaka",
+                    "contact": "01111111111",
+                    "image": "2023-10-16-652cad59861ad.png",
+                    "bottom_banner": null,
+                    "offer_banner": "2023-10-16-652cad8ebff0d.png",
+                    "vacation_start_date": null,
+                    "vacation_end_date": null,
+                    "vacation_note": null,
+                    "vacation_status": false,
+                    "temporary_close": false,
+                    "created_at": "2022-03-15T08:20:21.000000Z",
+                    "updated_at": "2024-01-14T06:06:55.000000Z",
+                    "banner": "2023-10-16-652cad8ebfbf1.png"
+               }
+          },
+          "translations": [],
+          "reviews": []
+     },
+     {
+          "id": 60,
+          "added_by": "seller",
+          "user_id": 5,
+          "name": "Pure Cotton Formal Shirt",
+          "slug": "smart-heart-adult-dog-food-chicken-egg-flavor-2kg-WfJNHb",
+          "product_type": "physical",
+          "category_ids": [
+               {
+                    "id": "12",
+                    "position": 1
+               },
+               {
+                    "id": "70",
+                    "position": 2
+               }
+          ],
+          "category_id": 12,
+          "sub_category_id": 70,
+          "sub_sub_category_id": null,
+          "brand_id": 6,
+          "unit": "kg",
+          "min_qty": 1,
+          "refundable": 1,
+          "digital_product_type": null,
+          "digital_file_ready": null,
+          "images": [
+               "2023-10-16-652ccec234a68.png",
+               "2023-10-16-652ccec236223.png",
+               "2023-10-16-652ccec2364ed.png"
+          ],
+          "color_image": [],
+          "thumbnail": "2023-10-16-652ccf1400f82.png",
+          "featured": 1,
+          "flash_deal": null,
+          "video_provider": "youtube",
+          "video_url": null,
+          "colors": [],
+          "variant_product": 0,
+          "attributes": [
+               1
+          ],
+          "choice_options": [
+               {
+                    "name": "choice_1",
+                    "title": "size",
+                    "options": [
+                         "S",
+                         "    L",
+                         "    M"
+                    ]
+               }
+          ],
+          "variation": [
+               {
+                    "type": "S",
+                    "price": 500,
+                    "sku": "PCFS-S",
+                    "qty": 100
+               },
+               {
+                    "type": "L",
+                    "price": 600,
+                    "sku": "PCFS-L",
+                    "qty": 100
+               },
+               {
+                    "type": "M",
+                    "price": 700,
+                    "sku": "PCFS-M",
+                    "qty": 100
+               }
+          ],
+          "published": 0,
+          "unit_price": 50,
+          "purchase_price": 40,
+          "tax": 5,
+          "tax_type": "percent",
+          "tax_model": "include",
+          "discount": 5,
+          "discount_type": "flat",
+          "current_stock": 300,
+          "minimum_order_qty": 1,
+          "details": "<h3>pecifications of OLEVS 5563 Quartz wrist watch waterproof watch for Men and Women</h3>\r\n\r\n<ul>\r\n\t<li>Brand - OLEVS</li>\r\n\t<li>SKU - 183922704_BD-1128752672</li>\r\n\t<li>Strap Material - Alloy</li>\r\n\t<li>Model - 5563</li>\r\n\t<li>Dial Size -40mm</li>\r\n\t<li>Watch Type - Analouge</li>\r\n\t<li>Movement - Japanese Quartz</li>\r\n\t<li>Watch Movement Country - China</li>\r\n\t<li>Watch&#39;s Water Resistance - 300m</li>\r\n</ul>",
+          "free_shipping": 0,
+          "attachment": null,
+          "created_at": "2023-06-12T21:45:19.000000Z",
+          "updated_at": "2023-10-16T02:09:39.000000Z",
+          "status": 1,
+          "featured_status": 1,
+          "meta_title": null,
+          "meta_description": null,
+          "meta_image": "2023-10-16-652ccec236919.png",
+          "request_status": 1,
+          "denied_note": null,
+          "shipping_cost": 10,
+          "multiply_qty": 1,
+          "temp_shipping_cost": null,
+          "is_shipping_cost_updated": null,
+          "code": "146436",
+          "reviews_count": 0,
+          "wish_list_count": 0,
+          "flash_deal_status": 0,
+          "flash_deal_end_date": 0,
+          "colors_formatted": [],
+          "rating": [],
+          "flash_deal_products": [],
+          "tags": [],
+          "seller": {
+               "id": 5,
+               "f_name": "test",
+               "l_name": "test",
+               "phone": "01111111113",
+               "image": "2022-04-12-6254ee50e93d5.png",
+               "email": "test1@gmail.com",
+               "password": "$2y$10$nfGgEN4RK1BAjhlBr5VeROE/eeFlgE9ICguu4yF2gk0rcInn6JIVW",
+               "status": "approved",
+               "remember_token": "3O9i2R2qdkTifHdio4uJgkyO33XoIGLD4uarmHtPCOqK3xGVNty2IKlsow1t",
+               "created_at": "2022-04-12T01:13:21.000000Z",
+               "updated_at": "2023-06-13T18:46:22.000000Z",
+               "bank_name": null,
+               "branch": null,
+               "account_no": null,
+               "holder_name": null,
+               "auth_token": "8ToMsBQMehkGwAA5kvFIvG9dgFv2atHeMGRhufobkFyYG58K3oCt9MZmNzeqWFLboEIMr9rsMQRrcYsD",
+               "sales_commission_percentage": null,
+               "gst": null,
+               "cm_firebase_token": null,
+               "pos_status": 0,
+               "minimum_order_amount": 0,
+               "free_delivery_status": 0,
+               "free_delivery_over_amount": 0,
+               "app_language": "en",
+               "shop": {
+                    "id": 5,
+                    "seller_id": 5,
+                    "name": "KR Fashion",
+                    "slug": "kr-fashion-lbvBrM",
+                    "address": "Dhaka",
+                    "contact": "01111111116",
+                    "image": "2023-10-16-652cb375e1a5e.png",
+                    "bottom_banner": null,
+                    "offer_banner": "2023-10-16-652cb375e1fea.png",
+                    "vacation_start_date": null,
+                    "vacation_end_date": null,
+                    "vacation_note": null,
+                    "vacation_status": false,
+                    "temporary_close": false,
+                    "created_at": "2022-04-12T01:13:21.000000Z",
+                    "updated_at": "2024-01-14T06:06:55.000000Z",
+                    "banner": "2023-10-16-652cb375e1cb3.png"
+               }
+          },
+          "translations": [],
+          "reviews": []
+     }
+]
+```
+ 
+</details>
+ 
+## 19. 200 GET /api/v1/products/details/womens-shoes-Cg8NFh?guest_id=1
+ 
+**Model**
+ 
+Paste you model hear
+ 
+<details>
+ 
+<summary>Example</summary>
+ 
+```json
+{
+     "id": 49,
+     "added_by": "seller",
+     "user_id": 2,
+     "name": "Waterproof Business Analog Wristwatch Luxury Brand",
+     "slug": "womens-shoes-Cg8NFh",
+     "product_type": "physical",
+     "category_ids": [
+          {
+               "id": "12",
+               "position": 1
+          },
+          {
+               "id": "70",
+               "position": 2
+          }
+     ],
+     "category_id": 12,
+     "sub_category_id": 70,
+     "sub_sub_category_id": null,
+     "brand_id": 5,
+     "unit": "kg",
+     "min_qty": 1,
+     "refundable": 1,
+     "digital_product_type": null,
+     "digital_file_ready": null,
+     "images": [
+          "2023-10-16-652cd948944c1.png",
+          "2023-10-16-652cd9489565c.png"
+     ],
+     "color_image": [],
+     "thumbnail": "2023-10-16-652cd948969d5.png",
+     "featured": 1,
+     "flash_deal": null,
+     "video_provider": "youtube",
+     "video_url": "https://www.youtube.com/embed/mlTm9reIFpY",
+     "colors": [],
+     "variant_product": 0,
+     "attributes": [],
+     "choice_options": [],
+     "variation": [],
+     "published": 0,
+     "unit_price": 5000,
+     "purchase_price": 4000,
+     "tax": 5,
+     "tax_type": "percent",
+     "tax_model": "exclude",
+     "discount": 10,
+     "discount_type": "percent",
+     "current_stock": 9988,
+     "minimum_order_qty": 1,
+     "details": "<h3>Product details of New Fashionable Box Balance Heel shoes for Women</h3>\r\n\r\n<ul>\r\n\t<li>Quality will be good as picture</li>\r\n\t<li>High quality of synthetic comfortable sole</li>\r\n\t<li>Superior material featured soft feel and comfortable to wear</li>\r\n\t<li>It is flexible and anti-slip out sole, perfect for daily wear.</li>\r\n</ul>\r\n\r\n<h3>Specifications of New Fashionable Box Balance Heel shoes for Women</h3>\r\n\r\n<ul>\r\n\t<li>Brand\r\n\t<p>No Brand</p>\r\n\t</li>\r\n\t<li>SKU\r\n\t<p>199447422_BD-1146709543</p>\r\n\t</li>\r\n\t<li>Shoes Closure Type\r\n\t<p>Hook and Loop</p>\r\n\t</li>\r\n\t<li>Style\r\n\t<p>Party</p>\r\n\t</li>\r\n\t<li>Main Material\r\n\t<p>Synthetic,Leather</p>\r\n\t</li>\r\n</ul>\r\n\r\n<p>What&rsquo;s in the box</p>\r\n\r\n<p>New Fashionable Box Balance Heel shoes for Women</p>",
+     "free_shipping": 0,
+     "attachment": null,
+     "created_at": "2022-10-12T01:04:46.000000Z",
+     "updated_at": "2024-01-10T09:12:52.000000Z",
+     "status": 1,
+     "featured_status": 1,
+     "meta_title": "Men Watch",
+     "meta_description": "Men Fashion Watch",
+     "meta_image": "2023-10-16-652cd94897b3b.png",
+     "request_status": 1,
+     "denied_note": null,
+     "shipping_cost": 20,
+     "multiply_qty": 1,
+     "temp_shipping_cost": null,
+     "is_shipping_cost_updated": null,
+     "code": "101994",
+     "wish_list_count": 0,
+     "colors_formatted": [],
+     "average_review": 0,
+     "inhouse_vacation_start_date": null,
+     "inhouse_vacation_end_date": null,
+     "inhouse_temporary_close": false,
+     "reviews_count": 0,
+     "reviews": [],
+     "seller": {
+          "id": 2,
+          "f_name": "Fashion",
+          "l_name": "House",
+          "phone": "01633333339",
+          "image": "2023-10-10-6524eb11b7f67.png",
+          "email": "test.seller@gmail.com",
+          "password": "$2y$10$/MMkVoxgukpeC6EvXTm.wefuHlFTu6zug1M/rDBDgMli2f1OfPbbG",
+          "status": "approved",
+          "remember_token": "CdyWICh08S2r4ySBoVvfXbl45fCRQRNagieukoW5ecb72NtAmondLhrpyBSt",
+          "created_at": "2022-03-15T10:13:08.000000Z",
+          "updated_at": "2023-10-10T05:11:29.000000Z",
+          "bank_name": "City Bank",
+          "branch": "Mirpur- 12",
+          "account_no": "12345678",
+          "holder_name": "Fatema",
+          "auth_token": "QQxOfK1wmx14bbxqFAozhvIx9jzMwSBeKV6ROJv7cgcYpF2r5b",
+          "sales_commission_percentage": null,
+          "gst": null,
+          "cm_firebase_token": "cejq7ouDQEOFXBNj-WVEIl:APA91bEe99FubaZLtlZ5Kspm2uNip-LYPc8NupdBgW8Pt8LBCrQ3-9ANRxSuBAcgPtsMyWZAbKxwWW2I1WO8DUcoNFcIEsGQpt9IwzZO6LhPsRvgWqe82S2WlhIPDOq-DOl4FOJixBr4",
+          "pos_status": 1,
+          "minimum_order_amount": 0,
+          "free_delivery_status": 0,
+          "free_delivery_over_amount": 0,
+          "app_language": "en",
+          "shop": {
+               "id": 2,
+               "seller_id": 2,
+               "name": "Mart Fashion",
+               "slug": "mart-fashion-uMv4Ft",
+               "address": "House-09, Road-02, Section-15, Block-D, Mirpur-13",
+               "contact": "01633333339",
+               "image": "2023-10-16-652cae57ac358.png",
+               "bottom_banner": null,
+               "offer_banner": "2023-10-16-652cae57ac7f1.png",
+               "vacation_start_date": null,
+               "vacation_end_date": null,
+               "vacation_note": null,
+               "vacation_status": false,
+               "temporary_close": false,
+               "created_at": "2022-03-15T10:13:08.000000Z",
+               "updated_at": "2024-01-14T06:06:55.000000Z",
+               "banner": "2023-10-16-652cae57ac5c0.png"
+          }
+     },
+     "tags": [
+          {
+               "id": 52,
+               "tag": "watch",
+               "visit_count": 0,
+               "created_at": "2023-10-16T00:33:44.000000Z",
+               "updated_at": "2023-10-16T00:33:44.000000Z",
+               "pivot": {
+                    "product_id": 49,
+                    "tag_id": 52
+               }
+          },
+          {
+               "id": 19,
+               "tag": "men",
+               "visit_count": 18,
+               "created_at": "2023-06-12T21:49:11.000000Z",
+               "updated_at": "2023-10-21T23:39:19.000000Z",
+               "pivot": {
+                    "product_id": 49,
+                    "tag_id": 19
+               }
+          }
+     ],
+     "translations": []
+}
+```
+ 
+</details>
+ 
+## 20. 200 GET /api/v1/seller/2/products?guest_id=1&limit=10&offset=1&search=&category=[]&brand_ids=[]&product_id=49
+ 
+**Model**
+ 
+Paste you model hear
+ 
+<details>
+ 
+<summary>Example</summary>
+ 
+```json
+{
+     "total_size": 2,
+     "limit": 10,
+     "offset": 1,
+     "products": [
+          {
+               "id": 53,
+               "added_by": "seller",
+               "user_id": 2,
+               "name": "Klash Flash Melting Matte Waterproof Lip Stick - P09",
+               "slug": "running-shoes-CoYhre",
+               "product_type": "physical",
+               "category_ids": [
+                    {
+                         "id": "25",
+                         "position": 1
+                    },
+                    {
+                         "id": "90",
+                         "position": 2
+                    }
+               ],
+               "category_id": 25,
+               "sub_category_id": 90,
+               "sub_sub_category_id": null,
+               "brand_id": 9,
+               "unit": "pc",
+               "min_qty": 1,
+               "refundable": 1,
+               "digital_product_type": null,
+               "digital_file_ready": null,
+               "images": [
+                    "2023-06-13-64884df188596.png",
+                    "2023-10-17-652e26c0706d8.png",
+                    "2023-10-17-652e26d31de4f.png"
+               ],
+               "color_image": [
+                    {
+                         "color": "0000FF",
+                         "image_name": "2023-06-13-64884df188596.png"
+                    },
+                    {
+                         "color": "FF7F50",
+                         "image_name": "2023-10-17-652e26c0706d8.png"
+                    },
+                    {
+                         "color": "A52A2A",
+                         "image_name": "2023-10-17-652e26d31de4f.png"
+                    }
+               ],
+               "thumbnail": "2023-10-17-652e26c093981.png",
+               "featured": 0,
+               "flash_deal": null,
+               "video_provider": "youtube",
+               "video_url": "https://www.youtube.com/embed/0sus46BflpU",
+               "colors": [
+                    "#A52A2A",
+                    "#FF7F50"
+               ],
+               "variant_product": 0,
+               "attributes": [
+                    1
+               ],
+               "choice_options": [
+                    {
+                         "name": "choice_1",
+                         "title": "size",
+                         "options": [
+                              "L ",
+                              "                  M",
+                              "                  S"
+                         ]
+                    }
+               ],
+               "variation": [
+                    {
+                         "type": "Brown-L",
+                         "price": 990,
+                         "sku": "KFMMWLS-P-Brown-L",
+                         "qty": 99
+                    },
+                    {
+                         "type": "Brown-M",
+                         "price": 990,
+                         "sku": "KFMMWLS-P-Brown-M",
+                         "qty": 100
+                    },
+                    {
+                         "type": "Brown-S",
+                         "price": 990,
+                         "sku": "KFMMWLS-P-Brown-S",
+                         "qty": 100
+                    },
+                    {
+                         "type": "Coral-L",
+                         "price": 990,
+                         "sku": "KFMMWLS-P-Coral-L",
+                         "qty": 100
+                    },
+                    {
+                         "type": "Coral-M",
+                         "price": 990,
+                         "sku": "KFMMWLS-P-Coral-M",
+                         "qty": 100
+                    },
+                    {
+                         "type": "Coral-S",
+                         "price": 990,
+                         "sku": "KFMMWLS-P-Coral-S",
+                         "qty": 100
+                    }
+               ],
+               "published": 0,
+               "unit_price": 990,
+               "purchase_price": 500,
+               "tax": 10,
+               "tax_type": "percent",
+               "tax_model": "exclude",
+               "discount": 60,
+               "discount_type": "flat",
+               "current_stock": 599,
+               "minimum_order_qty": 1,
+               "details": "<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&#39;t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&#39;t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>",
+               "free_shipping": 0,
+               "attachment": null,
+               "created_at": "2022-10-12T03:20:11.000000Z",
+               "updated_at": "2024-01-10T09:12:52.000000Z",
+               "status": 1,
+               "featured_status": 1,
+               "meta_title": "Shoes",
+               "meta_description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly",
+               "meta_image": "2023-10-17-652e26c093cce.png",
+               "request_status": 1,
+               "denied_note": null,
+               "shipping_cost": 60,
+               "multiply_qty": 1,
+               "temp_shipping_cost": null,
+               "is_shipping_cost_updated": null,
+               "code": "143417",
+               "reviews_count": 0,
+               "wish_list_count": 0,
+               "flash_deal_status": 0,
+               "flash_deal_end_date": 0,
+               "colors_formatted": [
+                    {
+                         "name": "Coral",
+                         "code": "#FF7F50",
+                         "image": "2023-10-17-652e26c0706d8.png"
+                    },
+                    {
+                         "name": "Brown",
+                         "code": "#A52A2A",
+                         "image": "2023-10-17-652e26d31de4f.png"
+                    }
+               ],
+               "rating": [],
+               "flash_deal_products": [],
+               "tags": [],
+               "translations": [],
+               "reviews": []
+          },
+          {
+               "id": 9,
+               "added_by": "seller",
+               "user_id": 2,
+               "name": "Hair Brush",
+               "slug": "test-seller-product-Z4KhC3",
+               "product_type": "physical",
+               "category_ids": [
+                    {
+                         "id": "25",
+                         "position": 1
+                    },
+                    {
+                         "id": "50",
+                         "position": 2
+                    }
+               ],
+               "category_id": 25,
+               "sub_category_id": 50,
+               "sub_sub_category_id": null,
+               "brand_id": 12,
+               "unit": "pc",
+               "min_qty": 1,
+               "refundable": 1,
+               "digital_product_type": null,
+               "digital_file_ready": null,
+               "images": [
+                    "2023-10-16-652cc3193bebe.png"
+               ],
+               "color_image": [],
+               "thumbnail": "2023-10-16-652cc3193efdd.png",
+               "featured": 1,
+               "flash_deal": null,
+               "video_provider": "youtube",
+               "video_url": null,
+               "colors": [],
+               "variant_product": 0,
+               "attributes": [],
+               "choice_options": [],
+               "variation": [],
+               "published": 0,
+               "unit_price": 500,
+               "purchase_price": 400,
+               "tax": 5,
+               "tax_type": "percent",
+               "tax_model": "exclude",
+               "discount": 0,
+               "discount_type": "flat",
+               "current_stock": 119,
+               "minimum_order_qty": 1,
+               "details": "<p>About this item</p>\r\n\r\n<ul>\r\n\t<li>\r\n\t<p>Elevate your fashion game with our exquisite&nbsp;hair brush.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Crafted to perfection, hair brush is a symbol of style and functionality rolled into one.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Made from premium materials and boasting meticulous craftsmanship, it exudes durability and timeless charm.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>With a spacious interior designed to effortlessly accommodate your essentials, it&#39;s the ideal companion for any occasion, whether it&#39;s a workday, a casual outing, or a special event.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Make a statement and enhance your style with this essential accessory that adds a touch of sophistication to every outfit.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Experience the perfect blend of fashion and practicality with our hair brush.</p>\r\n\t</li>\r\n</ul>",
+               "free_shipping": 0,
+               "attachment": null,
+               "created_at": "2022-03-17T10:48:18.000000Z",
+               "updated_at": "2023-10-17T01:23:55.000000Z",
+               "status": 1,
+               "featured_status": 1,
+               "meta_title": null,
+               "meta_description": null,
+               "meta_image": "2023-10-16-652cc3193f2a7.png",
+               "request_status": 1,
+               "denied_note": null,
+               "shipping_cost": 5,
+               "multiply_qty": 1,
+               "temp_shipping_cost": null,
+               "is_shipping_cost_updated": null,
+               "code": "103169",
+               "reviews_count": 1,
+               "wish_list_count": 0,
+               "flash_deal_status": 0,
+               "flash_deal_end_date": 0,
+               "colors_formatted": [],
+               "rating": [
+                    {
+                         "average": "5.0000",
+                         "product_id": 9
+                    }
+               ],
+               "flash_deal_products": [
+                    {
+                         "id": 72,
+                         "flash_deal_id": 3,
+                         "product_id": 9,
+                         "discount": "0.00",
+                         "discount_type": null,
+                         "created_at": "2023-10-17T01:28:29.000000Z",
+                         "updated_at": "2023-10-17T01:28:29.000000Z",
+                         "flash_deal": null
+                    }
+               ],
+               "tags": [],
+               "translations": [],
+               "reviews": [
+                    {
+                         "id": 30,
+                         "product_id": 9,
+                         "customer_id": 9,
+                         "delivery_man_id": null,
+                         "order_id": null,
+                         "comment": "Their website was user-friendly, making it easy to find the perfect item. The checkout process was smooth, and I received my order promptly. Their product quality was good.",
+                         "attachment": "[\"2023-10-17-652e372523ee6.png\"]",
+                         "rating": 5,
+                         "status": 1,
+                         "is_saved": false,
+                         "created_at": "2023-10-17T01:25:46.000000Z",
+                         "updated_at": "2023-10-17T01:26:29.000000Z"
+                    }
+               ]
+          }
+     ]
+}
+```
+ 
+</details>
+ 
+## 21. 200 GET /api/v1/seller?seller_id=2
+ 
+**Model**
+ 
+Paste you model hear
+ 
+<details>
+ 
+<summary>Example</summary>
+ 
+```json
+{
+     "seller": {
+          "id": 2,
+          "f_name": "Fashion",
+          "l_name": "House",
+          "phone": "01633333339",
+          "image": "2023-10-10-6524eb11b7f67.png",
+          "minimum_order_amount": 0,
+          "shop": {
+               "id": 2,
+               "seller_id": 2,
+               "name": "Mart Fashion",
+               "slug": "mart-fashion-uMv4Ft",
+               "address": "House-09, Road-02, Section-15, Block-D, Mirpur-13",
+               "contact": "01633333339",
+               "image": "2023-10-16-652cae57ac358.png",
+               "bottom_banner": null,
+               "offer_banner": "2023-10-16-652cae57ac7f1.png",
+               "vacation_start_date": null,
+               "vacation_end_date": null,
+               "vacation_note": null,
+               "vacation_status": false,
+               "temporary_close": false,
+               "created_at": "2022-03-15T10:13:08.000000Z",
+               "updated_at": "2024-01-14T06:06:55.000000Z",
+               "banner": "2023-10-16-652cae57ac5c0.png"
+          }
+     },
+     "avg_rating": 5,
+     "positive_review": 100,
+     "total_review": 1,
+     "total_order": 1,
+     "total_product": 3,
+     "minimum_order_amount": 0,
+     "rating_percentage": 100
+}
+```
+ 
+</details>
+ 
+## 22. 200 GET /api/v1/cart?guest_id=156
+ 
+**Model**
+ 
+Paste you model hear
+ 
+<details>
+ 
+<summary>Example</summary>
+ 
+```json
+[
+     {
+          "id": 387,
+          "customer_id": 156,
+          "cart_group_id": "guest-NpoJB-1713378857",
+          "product_id": 49,
+          "product_type": "physical",
+          "digital_product_type": null,
+          "color": null,
+          "choices": [],
+          "variations": [],
+          "variant": "",
+          "quantity": 1,
+          "price": 5000,
+          "tax": 250,
+          "discount": 500,
+          "tax_model": "exclude",
+          "slug": "womens-shoes-Cg8NFh",
+          "name": "Waterproof Business Analog Wristwatch Luxury Brand",
+          "thumbnail": "2023-10-16-652cd948969d5.png",
+          "seller_id": 2,
+          "seller_is": "seller",
+          "created_at": "2024-04-17T18:34:17.000000Z",
+          "updated_at": "2024-04-17T18:34:17.000000Z",
+          "shop_info": "Mart Fashion",
+          "shipping_cost": 0,
+          "shipping_type": "order_wise",
+          "is_guest": 1,
+          "is_product_available": 1,
+          "minimum_order_amount_info": 0,
+          "free_delivery_order_amount": {
+               "status": 1,
+               "amount": 1000,
+               "percentage": 100,
+               "amount_need": -3750,
+               "shipping_cost_saved": 0,
+               "cart_id": "guest-NpoJB-1713378857",
+               "responsibility": "admin"
+          },
+          "product": {
+               "id": 49,
+               "name": "Waterproof Business Analog Wristwatch Luxury Brand",
+               "slug": "womens-shoes-Cg8NFh",
+               "current_stock": 9988,
+               "minimum_order_qty": 1,
+               "total_current_stock": 9988,
+               "translations": [],
+               "reviews": []
+          },
+          "shop": {
+               "id": 2,
+               "seller_id": 2,
+               "name": "Mart Fashion",
+               "slug": "mart-fashion-uMv4Ft",
+               "address": "House-09, Road-02, Section-15, Block-D, Mirpur-13",
+               "contact": "01633333339",
+               "image": "2023-10-16-652cae57ac358.png",
+               "bottom_banner": null,
+               "offer_banner": "2023-10-16-652cae57ac7f1.png",
+               "vacation_start_date": null,
+               "vacation_end_date": null,
+               "vacation_note": null,
+               "vacation_status": false,
+               "temporary_close": false,
+               "created_at": "2022-03-15T10:13:08.000000Z",
+               "updated_at": "2024-01-14T06:06:55.000000Z",
+               "banner": "2023-10-16-652cae57ac5c0.png"
+          }
+     }
+]
+```
+ 
+</details>
+ 
