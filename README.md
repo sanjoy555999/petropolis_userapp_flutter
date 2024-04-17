@@ -1438,6 +1438,7 @@ Paste you model hear
 ```
  
 </details>
+ 
 ## 2. 200 GET /api/v1/flash-deals
  
 **Model**
@@ -1469,6 +1470,7 @@ Paste you model hear
 ```
  
 </details>
+ 
 ## 3. 200 GET /api/v1/banners
  
 **Model**
@@ -1962,6 +1964,7 @@ Paste you model hear
 ```
  
 </details>
+ 
 ## 4. 200 GET /api/v1/flash-deals/products/4
  
 **Model**
@@ -2544,6 +2547,7 @@ Paste you model hear
 ```
  
 </details>
+ 
 ## 5. 200 GET /api/v1/categories?guest_id=1
  
 **Model**
@@ -3531,6 +3535,7 @@ Paste you model hear
 ```
  
 </details>
+ 
 ## 6. 200 GET /api/v1/products/home-categories?guest_id=1
  
 **Model**
@@ -6106,6 +6111,7 @@ Paste you model hear
 ```
  
 </details>
+ 
 ## 7. 200 GET /api/v1/seller/list/top?limit=10&offset=1
  
 **Model**
@@ -6568,6 +6574,7 @@ Paste you model hear
 ```
  
 </details>
+ 
 ## 8. 200 GET /api/v1/brands?guest_id=1
  
 **Model**
@@ -6684,6 +6691,7 @@ Paste you model hear
 ```
  
 </details>
+ 
 ## 9. 200 GET /api/v1/products/latest?guest_id=1&limit=10&&offset=1
  
 **Model**
@@ -8322,6 +8330,7 @@ Paste you model hear
 ```
  
 </details>
+ 
 ## 10. 200 GET /api/v1/products/featured?guest_id=1&limit=10&&offset=1
  
 **Model**
@@ -10314,6 +10323,7 @@ Paste you model hear
 ```
  
 </details>
+ 
 ## 11. 200 GET /api/v1/deals/featured
  
 **Model**
@@ -10919,6 +10929,7 @@ Paste you model hear
 ```
  
 </details>
+ 
 ## 12. 200 GET /api/v1/dealsoftheday/deal-of-the-day
  
 **Model**
@@ -11007,6 +11018,7 @@ Paste you model hear
 ```
  
 </details>
+ 
 ## 13. 200 GET /api/v1/products/most-demanded-product?guest_id=1
  
 **Model**
@@ -11034,6 +11046,7 @@ Paste you model hear
 ```
  
 </details>
+ 
 ## 14. 200 GET /api/v1/products/most-searching?guest_id=1?guest_id=1&limit=10&offset=1
  
 **Model**
@@ -12779,6 +12792,7 @@ Paste you model hear
 ```
  
 </details>
+ 
 ## 15. 200 GET /api/v1/seller/more
  
 **Model**
@@ -13245,6 +13259,7 @@ Paste you model hear
 ```
  
 </details>
+ 
 ## 16. 200 GET /api/v1/notifications?limit=10&guest_id=1&offset=1
  
 **Model**
@@ -13293,3 +13308,4 @@ Paste you model hear
 ```
  
 </details>
+ 
